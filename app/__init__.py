@@ -13,11 +13,11 @@ db = SQLAlchemy()
 
 def create_app(config_name):
 
-@@ -13,6 +19,10 @@ def create_app(config_name):
+    def create_app(config_name):
 
-    bootstrap.init_app(app)
+        bootstrap.init_app(app)
 
-    db.init_app(app)
+        db.init_app(app)
 
     # login_manager.init_app(app)
 
